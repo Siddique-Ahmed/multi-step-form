@@ -4,23 +4,23 @@ import { useNavigate } from "react-router-dom";
 
 const BudgetPage = () => {
   const [count, setCount] = useState(0);
-  const [width, setWidth] = useState(33.33); // Starting at 33.33%
+  const [width, setWidth] = useState(33.33);
   const navigate = useNavigate();
 
   useEffect(() => {
     if (count === 0) {
-      setWidth(33.33); // Step 1 width
+      setWidth(33.33);
     } else if (count === 1) {
-      setWidth(66.66); // Step 2 width
+      setWidth(66.66);
     } else if (count === 2) {
-      setWidth(100); // Final step width
+      setWidth(100);
     }
   }, [count]);
 
   function inc() {
     if (count === 0) {
       setCount(1);
-      navigate("/detail"); // Navigate to detail page
+      navigate("/detail");
     }
   }
 

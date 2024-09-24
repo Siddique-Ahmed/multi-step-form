@@ -4,7 +4,7 @@ import submit from "../../../public/img/submit.png";
 const SubmittedPage = () => {
   return (
     <section className="w-full min-h-[87vh] flex items-center justify-between flex-col">
-      <Line width={100} /> {/* Line at 100% for final step */}
+      <Line width={100} />
       <div className="submit-box w-full min-h-[87vh] flex flex-col items-center justify-center px-4">
         <div className="ls w-full flex items-center justify-center flex-wrap">
           <img className="h-[90px]" src={submit} alt="" />

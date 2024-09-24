@@ -24,7 +24,7 @@ const DetailPage = () => {
               Name
             </label>
             <input
-              className="w-full h-full border-2 border-gray-300 rounded-md"
+              className="px-3 outline-none w-full h-full border-2 border-gray-300 rounded-md"
               type="text"
               required
             />
@@ -35,7 +35,7 @@ const DetailPage = () => {
                 Email
               </label>
               <input
-                className="w-full h-full border-2 border-gray-300 rounded-md"
+                className="px-3 outline-none w-full h-full border-2 border-gray-300 rounded-md"
                 type="email"
                 required
               />
@@ -45,7 +45,7 @@ const DetailPage = () => {
                 Phone Number
               </label>
               <input
-                className="w-full h-full border-2 border-gray-300 rounded-md"
+                className="px-3 outline-none w-full h-full border-2 border-gray-300 rounded-md"
                 type="tel"
                 required
               />
@@ -56,7 +56,7 @@ const DetailPage = () => {
               Anything else you'd like to share?
             </label>
             <textarea
-              className="w-full h-full border-2 border-gray-300 rounded-md"
+              className="px-3 py-2 outline-none w-full h-full border-2 border-gray-300 rounded-md"
               cols="20"
               rows="30"
             ></textarea>
